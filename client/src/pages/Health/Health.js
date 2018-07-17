@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Form } from 'react-bootstrap';
 import { FormGroup } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -10,11 +10,11 @@ import Navbar from "../../components/Navbar";
 
 const Health  = () => (
 
-<div style={{background: "#e6f2ff"}}>
+<div style={{backgroundImage: 'url(' + require('../../images/info.jpg') + ')',backgroundSize: 'cover',textAlign: 'center' }}>
 
 <Navbar/>
 
-<Grid style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' ,width: '800px'}}>
+<Grid style={{ justifyContent: 'center', alignItems: 'center',maxWidth: '800px'}}>
     <h1> My Health </h1>
     <p>something to come later</p>
 
